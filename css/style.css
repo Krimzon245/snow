@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+@font-face {
+    font-family: 'Fascinate Inline';
+    src: url(../fonts/fascinateinline-regular-webfont.woff2);
+}
+
+.blue{
+    color:blue
+}
+
+.red{
+    color:red
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url(../images/snowflakes.jpg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+.header{
+    background-color: skyblue;
+    background-blend-mode: multiply;
+    background-image: url(../images/winter-tree.jpg);
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+
+}
+
+h1{
+    font-family: 'Fascinate Inline', sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    line-height: 2;
+    color:white
+}
+
+p{
+    font-family: 'Peralta', sans-serif;
+    font-size: 1.7rem;
+}
